@@ -1,0 +1,252 @@
+:root {
+  --main-title-color: #ffffff;
+  --second-title-color: #212121;
+  --main-text-color: #757575;
+  --footer-contacts-text-color: rgba(255, 255, 255, 0.6);
+  --footer-link-color: #ffffff;
+  --header-contacts-text-color: #757575;
+  --hover-color: #2196f3;
+  --focus-color: #2196f3;
+  --hero-btn-color: #188ce8;
+  --web-logo-color: #2196f3;
+  --studio-header-logo-color: #212121;
+  --studio-footer-logo-color: #ffffff;
+  --main-btn-color: #ffffff;
+  --background-btn-color: #2196f3;
+  --background-hero-footer-color: #2f303a;
+  --background-commands-color: #f5f4fa;
+  --second-btn-color: #212121;
+  --portfolio-btn-accent-color: #ffffff;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.list {
+  list-style: none;
+  text-decoration: none;
+}
+
+/* --------------HEADER----------------------- */
+
+.site-logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--studio-header-logo-color);
+}
+
+.site-logo-span {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--web-logo-color);
+}
+
+.site-nav-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--second-title-color);
+}
+
+.contacts-tel,
+.contacts-mail {
+  color: var(--header-contacts-text-color);
+}
+
+/* ----------------------HOVER---------------------------- */
+
+.site-nav-list:hover,
+.contacts-tel:hover,
+.contacts-mail:hover,
+.footer-tel:hover,
+.footer-mail:hover {
+  color: var(--hover-color);
+}
+
+/* ----------------------FOCUS---------------------------- */
+.hero-btn {
+  background-color: var(--hero-btn-color);
+  cursor: pointer;
+}
+
+.site-nav-list:focus,
+.contacts-tel:focus,
+.contacts-mail:focus,
+.footer-tel:focus,
+.footer-mail:focus {
+  color: var(--focus-color);
+}
+
+.contacts-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--header-contacts-text-color);
+}
+
+/* ----------------------HERO---------------------------- */
+
+.hero {
+  background-color: var(--background-hero-footer-color);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--main-title-color);
+}
+
+.hero-btn {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--main-btn-color);
+  background: var(--background-btn-color);
+}
+
+/* ----------------- PECULIARITEIS--------------------------- */
+
+.peculiarities-hide,
+.portfolio-title-hide {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.peculiarities-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--second-title-color);
+}
+
+/* -----------------  WHAT WE DO --------------------------- */
+.work-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: var(--second-title-color);
+}
+
+/* -----------------  COMMADS --------------------------- */
+
+.commands {
+  background-color: var(--background-commands-color);
+}
+
+.commands-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: var(--second-title-color);
+}
+
+.commands-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  color: var(--second-title-color);
+}
+
+/* -----------------  FOOTER --------------------------- */
+
+.footer {
+  background-color: var(--background-hero-footer-color);
+}
+
+.footer-logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--studio-footer-logo-color);
+}
+
+.footer-logo-span {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--web-logo-color);
+}
+
+.footer-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--footer-link-color);
+}
+
+.footer-mail,
+.footer-tel {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--footer-contacts-text-color);
+}
+
+/* -----------------  PORTFOLIO --------------------------- */
+
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--second-title-color);
+}
+
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
+
+.portfolio-btn {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--second-btn-color);
+  cursor: pointer;
+}
+
+.portfolio-btn:focus,
+.portfolio-btn:hover {
+  color: var(--portfolio-btn-accent-color);
+  background-color: var(--background-btn-color);
+}
