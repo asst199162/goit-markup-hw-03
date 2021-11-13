@@ -13,6 +13,7 @@
   --studio-footer-logo-color: #ffffff;
   --main-btn-color: #ffffff;
   --background-btn-color: #2196f3;
+  --background-portfolio-btn-color: #f5f4fa;
   --background-hero-footer-color: #2f303a;
   --background-commands-color: #f5f4fa;
   --second-btn-color: #212121;
@@ -24,6 +25,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  color: var(--main-text-color);
 }
 
 .list {
@@ -242,6 +244,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-btn-color);
+  background-color: var(--background-portfolio-btn-color);
   cursor: pointer;
 }
 
