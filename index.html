@@ -14,54 +14,33 @@
 </head>
 <body>
     <header class="site">
-<<<<<<< Updated upstream
         <div class="container site-container">
             <nav class="navigation-container">
-                <a href="./index.html" class="site-logo list"> <span class="site-logo-span">Web</span>Studio</a>
-                <ul class="site-nav-list list">
-                    <li class="site-nav-item"><a class="site-nav-link list" href="./index.html">Студия</a></li>
-                    <li class="site-nav-item"><a class="site-nav-link list" href="./portfolio.html">Портфолио</a></li>
-                    <li class="site-nav-item"><a class="site-nav-link list" href="">Контакты</a></li>
+                <a href="./index.html" class="site-logo"> <span class="site-logo-span">Web</span>Studio</a>
+                <ul class="site-nav-list">
+                    <li class="site-nav-item"><a class="site-nav-link" href="./index.html">Студия</a></li>
+                    <li class="site-nav-item"><a class="site-nav-link" href="./portfolio.html">Портфолио</a></li>
+                    <li class="site-nav-item"><a class="site-nav-link" href="">Контакты</a></li>
                 </ul>
             </nav>
-            <div class="list-container">
-            <ul class="list contacts-list">
-                <li class="contacts-item"><a class="list contacts-tel" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li class="contacts-item"><a class="list contacts-mail" href="tel:+380961111111">+38 096 111 11 11</a></li>
+            <ul class="contacts-list">
+                <li class="contacts-item"><a class="contacts-tel" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="contacts-item"><a class="contacts-mail" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
-            </div>
         </div>
-=======
-        <div class="container"><nav>
-            <a href="./index.html" class=" site-logo list"> <span class="   site-logo-span">Web</span>Studio</a>
-            <ul class="site-nav-list list">
-                <li class="site-nav-item"><a class="site-nav-list list" href="./index.html">Студия</a></li>
-                <li class="site-nav-item"><a class="site-nav-list list" href="./portfolio.html">Портфолио</a></li>
-                <li class="site-nav-item"><a class="site-nav-list list" href="">Контакты</a></li>
-            </ul>
-        </nav>
-        <ul class="list contacts-list">
-            <li class="contacts-item"><a class="list contacts-tel " href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li class="contacts-item"><a class="list contacts-mail " href="tel:+380961111111">+38 096 111 11 11</a></li>
-        </ul>
-        </div>
-
->>>>>>> Stashed changes
     </header>
 
     <main>
         <section class="hero">
             <div class="container">
             <h1 class="hero-title">Эффективные решения <br> для вашего бизнеса</h1>
-                <div class="hero-btn-padding">
                     <button class="hero-btn" title="button">Заказать услугу</button>
-                </div>
             </div>
         </section>
-        <section>
-            <div class="container section">
+        <section class="section">
+            <div class="container">
                 <h2 class="peculiarities-hide">Особенности</h2>
-                <ul class=" peculiarities-list list">
+                <ul class=" peculiarities-list">
                     <li class="peculiarities-item">
                         <h3 class="peculiarities-title">Внимание к деталям</h3>
                         <p class="peculiarities-text">
@@ -88,10 +67,10 @@
                 </ul>
             </div>
         </section>
-        <section>
-            <div class="container section">
+        <section class="section work-section">
+            <div class="container">
                 <h2 class="work-title">Чем мы занимаемся</h2>
-                <ul class="work-list list">
+                <ul class="work-list">
                     <li class="work-item">
                         <img src="./images/img-1.jpg" 
                         alt="Парень пишет код"
@@ -113,17 +92,19 @@
                 </ul>
             </div>
         </section>
-        <section class="commands ">
-            <div class="container section">
+        <section class="commands section">
+            <div class="container">
                 <h2 class="commands-title">Наша команда</h2>
-                <ul class="commands-list list">
+                <ul class="commands-list">
                     <li class="commands-item">
                         <img src="./images/igor.jpg" 
                         alt="Фотография Игоря" 
                         width="270" 
                         height="260">
-                        <h3 class="commands-name">Игорь Демьяненко</h3>
-                        <p class="commands-text" lang="en">Product Designer</p>
+                        <div class="commands-text-name">
+                            <h3 class="commands-name">Игорь Демьяненко</h3>
+                            <p class="commands-text" lang="en">Product Designer</p>
+                        </div>
                     </li>
 
                     <li class="commands-item">
@@ -131,8 +112,10 @@
                         alt="Фотография Ольги" 
                         width="270" 
                         height="260">
-                        <h3 class="commands-name">Ольга Репина</h3>
-                        <p class="commands-text" lang="en">Frontend Developer</p>
+                        <div class="commands-text-name">
+                            <h3 class="commands-name">Ольга Репина</h3>
+                            <p class="commands-text" lang="en">Frontend Developer</p>
+                        </div>
                     </li>
 
                     <li class="commands-item">
@@ -140,8 +123,10 @@
                         alt="Фотография Николая" 
                         width="270" 
                         height="260">
-                        <h3 class="commands-name">Николай Тарасов</h3>
-                        <p class="commands-text" lang="en">Marketing</p>
+                        <div class="commands-text-name">
+                            <h3 class="commands-name">Николай Тарасов</h3>
+                            <p class="commands-text" lang="en">Marketing</p>
+                        </div>
                     </li>
 
                     <li class="commands-item">
@@ -149,8 +134,10 @@
                         alt="Фотография Михаила" 
                         width="270" 
                         height="260">
-                        <h3 class="commands-name">Михаил Ермаков</h3>
-                        <p class="commands-text" lang="en">UI Designer</p>
+                        <div class="commands-text-name">
+                            <h3 class="commands-name">Михаил Ермаков</h3>
+                            <p class="commands-text" lang="en">UI Designer</p>
+                        </div>
                     </li>
 
                 </ul>
@@ -159,24 +146,22 @@
     </main>
     <footer class="footer">
         <div class="container">
-                <div class="footer-logo-padding">
-                    <a class="footer-logo list" href=""><span class="footer-logo-span">Web</span>Studio</a>
-                </div>
+                    <a class="footer-logo" href=""><span class="footer-logo-span">Web</span>Studio</a>
             <address>
-                <ul class="footer-list list">    
+                <ul class="footer-list">    
                     <li class="footer-item">
-                        <a class="footer-link list" href="https://goo.gl/maps/mKmkBRbk66RdH9SZ9"
+                        <a class="footer-link" href="https://goo.gl/maps/mKmkBRbk66RdH9SZ9"
                         target="-blank" 
                         rel="noopener noreferrer">
                         г. Киев, пр-т Леси Украинки, 26</a>                   
                     </li>
 
                     <li class="footer-item">
-                        <a class="footer-mail list" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                        <a class="footer-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
                     </li>
 
                     <li class="footer-item">
-                        <a class="footer-tel list" href="tel:+380961111111">+38 096 111 11 11</a>
+                        <a class="footer-tel" href="tel:+380961111111">+38 096 111 11 11</a>
                     </li>
                 </ul>
             </address>
